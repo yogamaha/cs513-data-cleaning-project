@@ -1,0 +1,19 @@
+#@begin Linear_OR #@desc Linear OpenRefine Workflow
+#@param expression:value.trim()
+#@param col-name:menu_id
+#@param col-name:id
+#@in table0
+#@out table2
+#@begin core/text-transform0#@desc Text transform on cells in column id using expression value.trim()
+#@param col-name:id
+#@param expression:value.trim()
+#@in table0
+#@out table1
+#@end core/text-transform0
+#@begin core/text-transform1#@desc Text transform on cells in column menu_id using expression value.trim()
+#@param col-name:menu_id
+#@param expression:value.trim()
+#@in table1
+#@out table2
+#@end core/text-transform1
+#@end Linear_OR

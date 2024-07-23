@@ -1,0 +1,279 @@
+#@begin Linear_OR #@desc Linear OpenRefine Workflow
+#@param col-name:name
+#@param expression:value.toTitlecase()
+#@param col-name:location
+#@param col-name:place
+#@param expression:value.trim()
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!\\;]/,_"")
+#@param col-name:venue
+#@param col-name:sponsor
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!\\"]/,_"")
+#@param col-name:event
+#@param expression:value.toUppercase()
+#@param col-name:id
+#@param expression:value.replace(/[\\p{Zs}\\s]+/,'_')
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!]/,_"")
+#@in table0
+#@out table47
+#@begin core/text-transform0#@desc Text transform on cells in column id using expression value.trim()
+#@param col-name:id
+#@param expression:value.trim()
+#@in table0
+#@out table1
+#@end core/text-transform0
+#@begin core/text-transform1#@desc Text transform on cells in column name using expression value.trim()
+#@param col-name:name
+#@param expression:value.trim()
+#@in table1
+#@out table2
+#@end core/text-transform1
+#@begin core/text-transform2#@desc Text transform on cells in column name using expression value.replace(/[\\p{Zs}\\s]+/,' ')
+#@param col-name:name
+#@param expression:value.replace(/[\\p{Zs}\\s]+/,'_')
+#@in table2
+#@out table3
+#@end core/text-transform2
+#@begin core/text-transform3#@desc Text transform on cells in column name using expression value.toTitlecase()
+#@param col-name:name
+#@param expression:value.toTitlecase()
+#@in table3
+#@out table4
+#@end core/text-transform3
+#@begin core/mass-edit0#@desc Mass edit cells in column name
+#@param col-name:name
+#@in table4
+#@out table5
+#@end core/mass-edit0
+#@begin core/text-transform4#@desc Text transform on cells in column sponsor using expression value.trim()
+#@param col-name:sponsor
+#@param expression:value.trim()
+#@in table5
+#@out table6
+#@end core/text-transform4
+#@begin core/text-transform5#@desc Text transform on cells in column sponsor using expression value.replace(/[\\p{Zs}\\s]+/,' ')
+#@param col-name:sponsor
+#@param expression:value.replace(/[\\p{Zs}\\s]+/,'_')
+#@in table6
+#@out table7
+#@end core/text-transform5
+#@begin core/text-transform6#@desc Text transform on cells in column sponsor using expression value.toUppercase()
+#@param col-name:sponsor
+#@param expression:value.toUppercase()
+#@in table7
+#@out table8
+#@end core/text-transform6
+#@begin core/mass-edit1#@desc Mass edit cells in column sponsor
+#@param col-name:sponsor
+#@in table8
+#@out table9
+#@end core/mass-edit1
+#@begin core/mass-edit2#@desc Mass edit cells in column sponsor
+#@param col-name:sponsor
+#@in table9
+#@out table10
+#@end core/mass-edit2
+#@begin core/mass-edit3#@desc Mass edit cells in column sponsor
+#@param col-name:sponsor
+#@in table10
+#@out table11
+#@end core/mass-edit3
+#@begin core/mass-edit4#@desc Mass edit cells in column sponsor
+#@param col-name:sponsor
+#@in table11
+#@out table12
+#@end core/mass-edit4
+#@begin core/mass-edit5#@desc Mass edit cells in column sponsor
+#@param col-name:sponsor
+#@in table12
+#@out table13
+#@end core/mass-edit5
+#@begin core/text-transform7#@desc Text transform on cells in column event using expression value.trim()
+#@param col-name:event
+#@param expression:value.trim()
+#@in table13
+#@out table14
+#@end core/text-transform7
+#@begin core/text-transform8#@desc Text transform on cells in column event using expression value.replace(/[\\p{Zs}\\s]+/,' ')
+#@param col-name:event
+#@param expression:value.replace(/[\\p{Zs}\\s]+/,'_')
+#@in table14
+#@out table15
+#@end core/text-transform8
+#@begin core/text-transform9#@desc Text transform on cells in column event using expression value.toUppercase()
+#@param col-name:event
+#@param expression:value.toUppercase()
+#@in table15
+#@out table16
+#@end core/text-transform9
+#@begin core/mass-edit6#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table16
+#@out table17
+#@end core/mass-edit6
+#@begin core/mass-edit7#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table17
+#@out table18
+#@end core/mass-edit7
+#@begin core/mass-edit8#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table18
+#@out table19
+#@end core/mass-edit8
+#@begin core/mass-edit9#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table19
+#@out table20
+#@end core/mass-edit9
+#@begin core/mass-edit10#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table20
+#@out table21
+#@end core/mass-edit10
+#@begin core/mass-edit11#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table21
+#@out table22
+#@end core/mass-edit11
+#@begin core/mass-edit12#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table22
+#@out table23
+#@end core/mass-edit12
+#@begin core/mass-edit13#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table23
+#@out table24
+#@end core/mass-edit13
+#@begin core/text-transform10#@desc Text transform on cells in column event using expression grel:value.replace(/[()\\[\\]\\?\\!]/, \"\")
+#@param col-name:event
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!]/,_"")
+#@in table24
+#@out table25
+#@end core/text-transform10
+#@begin core/text-transform11#@desc Text transform on cells in column event using expression grel:value.replace(/[()\\[\\]\\?\\!]/, \"\")
+#@param col-name:event
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!]/,_"")
+#@in table25
+#@out table26
+#@end core/text-transform11
+#@begin core/mass-edit14#@desc Mass edit cells in column event
+#@param col-name:event
+#@in table26
+#@out table27
+#@end core/mass-edit14
+#@begin core/text-transform12#@desc Text transform on cells in column venue using expression value.trim()
+#@param col-name:venue
+#@param expression:value.trim()
+#@in table27
+#@out table28
+#@end core/text-transform12
+#@begin core/text-transform13#@desc Text transform on cells in column venue using expression value.replace(/[\\p{Zs}\\s]+/,' ')
+#@param col-name:venue
+#@param expression:value.replace(/[\\p{Zs}\\s]+/,'_')
+#@in table28
+#@out table29
+#@end core/text-transform13
+#@begin core/text-transform14#@desc Text transform on cells in column venue using expression value.toUppercase()
+#@param col-name:venue
+#@param expression:value.toUppercase()
+#@in table29
+#@out table30
+#@end core/text-transform14
+#@begin core/text-transform15#@desc Text transform on cells in column venue using expression grel:value.replace(/[()\\[\\]\\?\\!]/, \"\")
+#@param col-name:venue
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!]/,_"")
+#@in table30
+#@out table31
+#@end core/text-transform15
+#@begin core/text-transform16#@desc Text transform on cells in column venue using expression grel:value.replace(/[()\\[\\]\\?\\!\\;]/, \"\")
+#@param col-name:venue
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!\\;]/,_"")
+#@in table31
+#@out table32
+#@end core/text-transform16
+#@begin core/mass-edit15#@desc Mass edit cells in column venue
+#@param col-name:venue
+#@in table32
+#@out table33
+#@end core/mass-edit15
+#@begin core/mass-edit16#@desc Mass edit cells in column venue
+#@param col-name:venue
+#@in table33
+#@out table34
+#@end core/mass-edit16
+#@begin core/text-transform17#@desc Text transform on cells in column place using expression value.trim()
+#@param col-name:place
+#@param expression:value.trim()
+#@in table34
+#@out table35
+#@end core/text-transform17
+#@begin core/text-transform18#@desc Text transform on cells in column place using expression value.replace(/[\\p{Zs}\\s]+/,' ')
+#@param col-name:place
+#@param expression:value.replace(/[\\p{Zs}\\s]+/,'_')
+#@in table35
+#@out table36
+#@end core/text-transform18
+#@begin core/text-transform19#@desc Text transform on cells in column place using expression value.toUppercase()
+#@param col-name:place
+#@param expression:value.toUppercase()
+#@in table36
+#@out table37
+#@end core/text-transform19
+#@begin core/text-transform20#@desc Text transform on cells in column place using expression grel:value.replace(/[()\\[\\]\\?\\!\\;]/, \"\")
+#@param col-name:place
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!\\;]/,_"")
+#@in table37
+#@out table38
+#@end core/text-transform20
+#@begin core/text-transform21#@desc Text transform on cells in column place using expression grel:value.replace(/[()\\[\\]\\?\\!\\;]/, \"\")
+#@param col-name:place
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!\\;]/,_"")
+#@in table38
+#@out table39
+#@end core/text-transform21
+#@begin core/mass-edit17#@desc Mass edit cells in column place
+#@param col-name:place
+#@in table39
+#@out table40
+#@end core/mass-edit17
+#@begin core/mass-edit18#@desc Mass edit cells in column place
+#@param col-name:place
+#@in table40
+#@out table41
+#@end core/mass-edit18
+#@begin core/mass-edit19#@desc Mass edit cells in column place
+#@param col-name:place
+#@in table41
+#@out table42
+#@end core/mass-edit19
+#@begin core/text-transform22#@desc Text transform on cells in column place using expression grel:value.replace(/[()\\[\\]\\?\\!\\\"]/, \"\")
+#@param col-name:place
+#@param expression:grel:value.replace(/[()\\[\\]\\?\\!\\"]/,_"")
+#@in table42
+#@out table43
+#@end core/text-transform22
+#@begin core/text-transform23#@desc Text transform on cells in column location using expression value.trim()
+#@param col-name:location
+#@param expression:value.trim()
+#@in table43
+#@out table44
+#@end core/text-transform23
+#@begin core/text-transform24#@desc Text transform on cells in column location using expression value.replace(/[\\p{Zs}\\s]+/,' ')
+#@param col-name:location
+#@param expression:value.replace(/[\\p{Zs}\\s]+/,'_')
+#@in table44
+#@out table45
+#@end core/text-transform24
+#@begin core/text-transform25#@desc Text transform on cells in column location using expression value.toTitlecase()
+#@param col-name:location
+#@param expression:value.toTitlecase()
+#@in table45
+#@out table46
+#@end core/text-transform25
+#@begin core/mass-edit20#@desc Mass edit cells in column location
+#@param col-name:location
+#@in table46
+#@out table47
+#@end core/mass-edit20
+#@end Linear_OR
