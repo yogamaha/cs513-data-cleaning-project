@@ -9864,5 +9864,1691 @@
       }
     ],
     "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Norddeutscher Lloyd Bremen",
+          "Norddeutscher Lloyd, Bremen",
+          "Bremen Norddeutscher Lloyd",
+          "Norddeutscher Lloyd Bremen;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Norddeutscher Lloyd Bremen"
+      },
+      {
+        "from": [
+          "Fifth Avenue Hotel",
+          "Fifth Avenue Hotel (?)",
+          "Fifth Avenue Hotel?",
+          "(fifth Avenue Hotel?}"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fifth Avenue Hotel"
+      },
+      {
+        "from": [
+          "Childs",
+          "Childs'",
+          "Child's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Childs"
+      },
+      {
+        "from": [
+          "Gramercy Park Hotel",
+          "Hotel Gramercy Park",
+          "Gramercy Park Hotel; Hotel Gramercy Park"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gramercy Park Hotel"
+      },
+      {
+        "from": [
+          "Riggs'",
+          "Rigg's",
+          "Riggs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Riggs'"
+      },
+      {
+        "from": [
+          "Edward F. Lang's Ladies And Gents Lunch Room And Restaurant",
+          "Edward F. Lang's Ladies' And Gent's Lunch Room And Restaurant",
+          "Edward F. Lang's Ladies' And Gent's Lunch Room And Restaurant;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Edward F. Lang's Ladies And Gents Lunch Room And Restaurant"
+      },
+      {
+        "from": [
+          "Hotel Knickerbocker",
+          "Hotel Knickerbocker (?)",
+          "Knickerbocker Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Knickerbocker"
+      },
+      {
+        "from": [
+          "U.S.M.S.",
+          "Usms",
+          "U.S.M.S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "U.S.M.S."
+      },
+      {
+        "from": [
+          "U.S.M.S. New York",
+          "Usms New York",
+          "U.S.M.S New York"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "U.S.M.S. New York"
+      },
+      {
+        "from": [
+          "Delmonicos",
+          "Delmonico's",
+          "Delmonicos."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Delmonicos"
+      },
+      {
+        "from": [
+          "The Merchant's Club",
+          "The Merchants Club",
+          "The Merchants' Club"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Merchant's Club"
+      },
+      {
+        "from": [
+          "Merchant's Club",
+          "Merchants' Club",
+          "Merchants Club"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merchant's Club"
+      },
+      {
+        "from": [
+          "St. Denis Hotel",
+          "Hotel St. Denis",
+          "St, Denis Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Denis Hotel"
+      },
+      {
+        "from": [
+          "Restaurant Name And/or Location Not Given]",
+          "Restaurant Name And/or Location Not Given",
+          "[restaurant Name And/or Location Not Given"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Restaurant Name And/or Location Not Given]"
+      },
+      {
+        "from": [
+          "Hotel Imperial",
+          "Imperial Hotel",
+          "Impérial Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Imperial"
+      },
+      {
+        "from": [
+          "American Medical Editor's Association",
+          "American Medical Editors' Association",
+          "American Medical Editors Association"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "American Medical Editor's Association"
+      },
+      {
+        "from": [
+          "Hotel Metropole",
+          "Metropole Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Metropole"
+      },
+      {
+        "from": [
+          "S.S. American Shipper",
+          "S.S. \"american Shipper\"\"\""
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S.S. American Shipper"
+      },
+      {
+        "from": [
+          "The Merchant's Club Of Chicago",
+          "The Merchants Club Of Chicago"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Merchant's Club Of Chicago"
+      },
+      {
+        "from": [
+          "Nordeutscher Lloyd Bremen",
+          "Nordeutscher Lloyd, Bremen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nordeutscher Lloyd Bremen"
+      },
+      {
+        "from": [
+          "Wabash Railway Company",
+          "Wabash [railway Company]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wabash Railway Company"
+      },
+      {
+        "from": [
+          "Alta Vista Hotel",
+          "Alta Vista Hotel (?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alta Vista Hotel"
+      },
+      {
+        "from": [
+          "Friendly Sons Of St. Patrick",
+          "Friendly Sons Of St Patrick"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Friendly Sons Of St. Patrick"
+      },
+      {
+        "from": [
+          "Cie Gle Transatlantique",
+          "Cie. Gle. Transatlantique"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cie Gle Transatlantique"
+      },
+      {
+        "from": [
+          "De L'ange Hotel",
+          "Hotel De L'ange"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "De L'ange Hotel"
+      },
+      {
+        "from": [
+          "Rigg's Twentieth Street Restaurant",
+          "Riggs' Twentieth Street Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rigg's Twentieth Street Restaurant"
+      },
+      {
+        "from": [
+          "UNKNOWN",
+          "Unknown"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNKNOWN"
+      },
+      {
+        "from": [
+          "Ancient And Honorable Artillery Co Of Massachusetts",
+          "Ancient And Honorable Artillery Co. Of Massachusetts"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ancient And Honorable Artillery Co Of Massachusetts"
+      },
+      {
+        "from": [
+          "The New Willard Hotel",
+          "The New Willard Hotel."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The New Willard Hotel"
+      },
+      {
+        "from": [
+          "St. Francis Hotel",
+          "Hotel St. Francis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Francis Hotel"
+      },
+      {
+        "from": [
+          "Society Of Colonial Wars In The State Of New York",
+          "Society Of The Society Of Colonial Wars In The State Of New York"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Society Of Colonial Wars In The State Of New York"
+      },
+      {
+        "from": [
+          "Compagnie Générale Transatlantique",
+          "Compagnie Generale Transatlantique"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Compagnie Générale Transatlantique"
+      },
+      {
+        "from": [
+          "Muhlenkamper Fahrhaus",
+          "Mühlenkamper Fährhaus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muhlenkamper Fahrhaus"
+      },
+      {
+        "from": [
+          "Del Prado Hotel",
+          "Hotel Del Prado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Del Prado Hotel"
+      },
+      {
+        "from": [
+          "Childs' Lunch Rooms",
+          "Child's Lunch Rooms"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Childs' Lunch Rooms"
+      },
+      {
+        "from": [
+          "Engineers Club",
+          "Engineers' Club"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Engineers Club"
+      },
+      {
+        "from": [
+          "Hotel Manhattan",
+          "Manhattan Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Manhattan"
+      },
+      {
+        "from": [
+          "Hotel Victory",
+          "Victory Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Victory"
+      },
+      {
+        "from": [
+          "Paquebot \\liberté\\\"\"",
+          "Paquebot Liberte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paquebot \\liberté\\\"\""
+      },
+      {
+        "from": [
+          "Hotel Grunewald",
+          "Grunewald Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Grunewald"
+      },
+      {
+        "from": [
+          "Fairmont Hotel",
+          "Hotel Fairmont"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fairmont Hotel"
+      },
+      {
+        "from": [
+          "Hotel Alcazar",
+          "Alcazar Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Alcazar"
+      },
+      {
+        "from": [
+          "Cafe Savarin",
+          "Café Savarin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Savarin"
+      },
+      {
+        "from": [
+          "St. Nicholas Hotel",
+          "Hotel St. Nicholas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Nicholas Hotel"
+      },
+      {
+        "from": [
+          "Hotel Colorado",
+          "Colorado Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Colorado"
+      },
+      {
+        "from": [
+          "Cosmopolitan Hotel",
+          "Cosmopolitan... Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cosmopolitan Hotel"
+      },
+      {
+        "from": [
+          "Hotel Colombo",
+          "Colombo Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Colombo"
+      },
+      {
+        "from": [
+          "Palace Hotel",
+          "Palace Hôtel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Palace Hotel"
+      },
+      {
+        "from": [
+          "Ancient Accepted Scottish Rite",
+          "Ancient & Accepted Scottish Rite"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ancient Accepted Scottish Rite"
+      },
+      {
+        "from": [
+          "Pirate's House",
+          "Pirates' House"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pirate's House"
+      },
+      {
+        "from": [
+          "Michigan Society Of The Sons Of The American Revolution",
+          "Michigan Society Sons Of The American Revolution"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Michigan Society Of The Sons Of The American Revolution"
+      },
+      {
+        "from": [
+          "Merchant's Club Of Boston",
+          "Merchants' Club Of Boston"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Merchant's Club Of Boston"
+      },
+      {
+        "from": [
+          "Second Panel Sheriff's Jury",
+          "Sheriff's Jury Second Panel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Second Panel Sheriff's Jury"
+      },
+      {
+        "from": [
+          "Elks Club House",
+          "Elks' Club House"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Elks Club House"
+      },
+      {
+        "from": [
+          "Hotel Du Musee",
+          "Hotel Du Musee'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Du Musee"
+      },
+      {
+        "from": [
+          "Tavern On The Green",
+          "The Tavern On The Green"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tavern On The Green"
+      },
+      {
+        "from": [
+          "Minot Hotel",
+          "Hotel Minot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Minot Hotel"
+      },
+      {
+        "from": [
+          "[restaurant And/or Location Not Given.]",
+          "[restaurant And/or Location Not Given]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[restaurant And/or Location Not Given.]"
+      },
+      {
+        "from": [
+          "Kempinski Restaurant",
+          "Restaurant Kempinski"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kempinski Restaurant"
+      },
+      {
+        "from": [
+          "S.S New Amsterdam",
+          "S.S. New Amsterdam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S.S New Amsterdam"
+      },
+      {
+        "from": [
+          "Sherry's",
+          "Sherrys"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sherry's"
+      },
+      {
+        "from": [
+          "Ambassador Hotel",
+          "Hotel Ambassador"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ambassador Hotel"
+      },
+      {
+        "from": [
+          "Bristol Hotel",
+          "Hotel Bristol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bristol Hotel"
+      },
+      {
+        "from": [
+          "Schwarzwalder's Natur Weinhaus",
+          "Schwarzwalders Natur Weinhaus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Schwarzwalder's Natur Weinhaus"
+      },
+      {
+        "from": [
+          "The Commodore Hotel",
+          "The Hotel Commodore"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Commodore Hotel"
+      },
+      {
+        "from": [
+          "Algonquin Hotel",
+          "Hotel Algonquin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Algonquin Hotel"
+      },
+      {
+        "from": [
+          "Hotel Worthy",
+          "Worthy Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Worthy"
+      },
+      {
+        "from": [
+          "Hotel Majestic",
+          "Majestic Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Majestic"
+      },
+      {
+        "from": [
+          "Willard's Hotel",
+          "Willards Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Willard's Hotel"
+      },
+      {
+        "from": [
+          "Grand Ballroom Of The Hotel Plaza",
+          "The Grand Ballroom Of The Hotel Plaza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grand Ballroom Of The Hotel Plaza"
+      },
+      {
+        "from": [
+          "Century Club",
+          "Century Club?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Century Club"
+      },
+      {
+        "from": [
+          "Hotel Astor",
+          "Astor Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Astor"
+      },
+      {
+        "from": [
+          "Hotel Chamberlin",
+          "Chamberlin Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Chamberlin"
+      },
+      {
+        "from": [
+          "Grocers Hall",
+          "Grocers' Hall"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grocers Hall"
+      },
+      {
+        "from": [
+          "Continental Hotel",
+          "Hotel Continental"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Continental Hotel"
+      },
+      {
+        "from": [
+          "New York Central System",
+          "[new York Central System]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New York Central System"
+      },
+      {
+        "from": [
+          "Colonial Hotel",
+          "Hotel Colonial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colonial Hotel"
+      },
+      {
+        "from": [
+          "Hotel St. Regis",
+          "St. Regis Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel St. Regis"
+      },
+      {
+        "from": [
+          "Hotel Netherland",
+          "Netherland Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Netherland"
+      },
+      {
+        "from": [
+          "St.Regis Hotel",
+          "Hotel St.Regis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St.Regis Hotel"
+      },
+      {
+        "from": [
+          "St. Charles Hotel",
+          "St Charles Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Charles Hotel"
+      },
+      {
+        "from": [
+          "Hotel Velvet",
+          "Velvet Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Velvet"
+      },
+      {
+        "from": [
+          "Society Of Sons Of The Revolution In The State Of Missouri",
+          "Society Sons Of The Revolution In The State Of Missouri"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Society Of Sons Of The Revolution In The State Of Missouri"
+      },
+      {
+        "from": [
+          "Waldorf Astoria",
+          "Waldorf Astoria?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waldorf Astoria"
+      },
+      {
+        "from": [
+          "Empire Hotel",
+          "Hotel Empire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Empire Hotel"
+      },
+      {
+        "from": [
+          "Reuben's",
+          "Reuben's."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Reuben's"
+      },
+      {
+        "from": [
+          "Paquebot \\france\\\"\"",
+          "Paquebot France"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paquebot \\france\\\"\""
+      },
+      {
+        "from": [
+          "Royal Palm Hotel",
+          "Hotel Royal Palm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Royal Palm Hotel"
+      },
+      {
+        "from": [
+          "George Washington Hotel",
+          "Hotel George Washington"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "George Washington Hotel"
+      },
+      {
+        "from": [
+          "R.G.(?)",
+          "Rg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R.G.(?)"
+      },
+      {
+        "from": [
+          "Columbia Hotel",
+          "Hotel Columbia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Columbia Hotel"
+      },
+      {
+        "from": [
+          "R.M.S. Oceanic",
+          "Rms Oceanic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R.M.S. Oceanic"
+      },
+      {
+        "from": [
+          "New Grand Hotel",
+          "Grand New Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New Grand Hotel"
+      },
+      {
+        "from": [
+          "The Hotel Plaza",
+          "The Plaza Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Hotel Plaza"
+      },
+      {
+        "from": [
+          "Cafe De Paris",
+          "Café De Paris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe De Paris"
+      },
+      {
+        "from": [
+          "Xiii Club",
+          "Club Xiii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Xiii Club"
+      },
+      {
+        "from": [
+          "Place Viger Hotel",
+          "Hotel Place Viger"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Place Viger Hotel"
+      },
+      {
+        "from": [
+          "Hotel Lafayette",
+          "Lafayette Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Lafayette"
+      },
+      {
+        "from": [
+          "Empire State Society Of Sons Of The American Revolution",
+          "Empire State Society Sons Of The American Revolution"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Empire State Society Of Sons Of The American Revolution"
+      },
+      {
+        "from": [
+          "Hotel Pennsylvania",
+          "Pennsylvania Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Pennsylvania"
+      },
+      {
+        "from": [
+          "Hotel Savoy",
+          "Savoy Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Savoy"
+      },
+      {
+        "from": [
+          "Hotel Dennis",
+          "Dennis Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Dennis"
+      },
+      {
+        "from": [
+          "R.M.S. Parthia",
+          "R.M.S. \"parthia\"\"\""
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R.M.S. Parthia"
+      },
+      {
+        "from": [
+          "Café Lafayette",
+          "Cafe Lafayette"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Café Lafayette"
+      },
+      {
+        "from": [
+          "Mouquin Restaurant And Wine Co",
+          "Mouquin Restaurant And Wine Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mouquin Restaurant And Wine Co"
+      },
+      {
+        "from": [
+          "Imperial",
+          "Imperial (?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Imperial"
+      },
+      {
+        "from": [
+          "S.S. Minnetonka",
+          "S.S. \"minnetonka\"\"\""
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S.S. Minnetonka"
+      },
+      {
+        "from": [
+          "Hotel Commodore",
+          "Commodore Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Commodore"
+      },
+      {
+        "from": [
+          "Usms St Louis",
+          "U.S.M.S. St. Louis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Usms St Louis"
+      },
+      {
+        "from": [
+          "Hotel Winthrop",
+          "Winthrop Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Winthrop"
+      },
+      {
+        "from": [
+          "Meyer's Hotel",
+          "Meyers Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Meyer's Hotel"
+      },
+      {
+        "from": [
+          "Hotel Phonix",
+          "Phonix Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Phonix"
+      },
+      {
+        "from": [
+          "Hotel Biltmore",
+          "Biltmore Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Biltmore"
+      },
+      {
+        "from": [
+          "Hotel Jefferson",
+          "Jefferson Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Jefferson"
+      },
+      {
+        "from": [
+          "Smith & Mcnell's",
+          "Smith & Mcnells"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Smith & Mcnell's"
+      },
+      {
+        "from": [
+          "Hotel D'angleterre",
+          "D'angleterre Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel D'angleterre"
+      },
+      {
+        "from": [
+          "R.M.S. \"queen Mary\"\"\"",
+          "R.M.S. \\queen Mary\\\"\""
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R.M.S. \"queen Mary\"\"\""
+      },
+      {
+        "from": [
+          "Claremont Hotel",
+          "Hotel Claremont"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Claremont Hotel"
+      },
+      {
+        "from": [
+          "Hotel Del Coronado",
+          "Del Coronado Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Del Coronado"
+      },
+      {
+        "from": [
+          "Cafe Boulevard",
+          "Café Boulevard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Boulevard"
+      },
+      {
+        "from": [
+          "Hotel Champlain",
+          "Champlain Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Champlain"
+      },
+      {
+        "from": [
+          "R.M.S. \\mauretania\\\"\"",
+          "R.M.S. Mauretania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R.M.S. \\mauretania\\\"\""
+      },
+      {
+        "from": [
+          "Met-life Building",
+          "Metlife Building"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Met-life Building"
+      },
+      {
+        "from": [
+          "S.S. \"frederik Viii\"",
+          "S.S. Frederik Viii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S.S. \"frederik Viii\""
+      },
+      {
+        "from": [
+          "Hotel Eastman",
+          "Eastman Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Eastman"
+      },
+      {
+        "from": [
+          "Ballroom, The Plaza",
+          "The Plaza Ballroom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ballroom, The Plaza"
+      },
+      {
+        "from": [
+          "Menzie's Hotel",
+          "Menzies Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Menzie's Hotel"
+      },
+      {
+        "from": [
+          "American Bankers Association",
+          "American Bankers' Association"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "American Bankers Association"
+      },
+      {
+        "from": [
+          "Brevoort Restaurant",
+          "Restaurant Brevoort"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brevoort Restaurant"
+      },
+      {
+        "from": [
+          "Promenade Café",
+          "Cafe Promenade"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Promenade Café"
+      },
+      {
+        "from": [
+          "S.S. \"ile De France\"\"\"",
+          "S.S. Ile De France"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S.S. \"ile De France\"\"\""
+      },
+      {
+        "from": [
+          "Master Printers' Association",
+          "Master Printers Association"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Master Printers' Association"
+      },
+      {
+        "from": [
+          "Restaurant Mayan",
+          "Mayan Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Restaurant Mayan"
+      },
+      {
+        "from": [
+          "Military Order Of The Loyal Legion Of The United States Commandery Of The State Of Minnesota",
+          "Military Order Of The Loyal Legion Of The United States. Commandery Of The State Of Minnesota"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Military Order Of The Loyal Legion Of The United States Commandery Of The State Of Minnesota"
+      },
+      {
+        "from": [
+          "Castleton Hotel",
+          "Hotel Castleton"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Castleton Hotel"
+      },
+      {
+        "from": [
+          "Adams' Restaurant",
+          "Adam's Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Adams' Restaurant"
+      },
+      {
+        "from": [
+          "New England Society In The City Of New York",
+          "The New England Society In The City Of New York"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New England Society In The City Of New York"
+      },
+      {
+        "from": [
+          "Grenoble Hotel",
+          "Hotel Grenoble"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grenoble Hotel"
+      },
+      {
+        "from": [
+          "Penn Rr Pullman Dining Car Service",
+          "Penn. Rr Pullman Dining Car Service"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Penn Rr Pullman Dining Car Service"
+      },
+      {
+        "from": [
+          "Santa Fe Route",
+          "Santa Fe' Route"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Santa Fe Route"
+      },
+      {
+        "from": [
+          "Alpha Kappa Kappa",
+          "Kappa Alpha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alpha Kappa Kappa"
+      },
+      {
+        "from": [
+          "National Cooper's Association",
+          "National Coopers Association"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "National Cooper's Association"
+      },
+      {
+        "from": [
+          "Windsor Hotel",
+          "Hotel Windsor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Windsor Hotel"
+      },
+      {
+        "from": [
+          "Hotel National",
+          "National Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel National"
+      },
+      {
+        "from": [
+          "Hotel Marie Antoinette",
+          "Marie Antoinette Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Marie Antoinette"
+      },
+      {
+        "from": [
+          "Hotel Quisisana",
+          "Quisisana Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Quisisana"
+      },
+      {
+        "from": [
+          "United States Government",
+          "United States Government?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States Government"
+      },
+      {
+        "from": [
+          "New York Central System, Boston & Albany Railroad",
+          "Boston & Albany Railroad , New York Central System"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New York Central System, Boston & Albany Railroad"
+      },
+      {
+        "from": [
+          "Copley Plaza Hotel",
+          "Hotel Copley Plaza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Copley Plaza Hotel"
+      },
+      {
+        "from": [
+          "Albany Zouave Cadets Old Guard",
+          "Old Guard Albany Zouave Cadets"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Albany Zouave Cadets Old Guard"
+      },
+      {
+        "from": [
+          "New York Central & Hudson River R.R.",
+          "New York Central & Hudson River R.R.."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New York Central & Hudson River R.R."
+      },
+      {
+        "from": [
+          "St. George's Society",
+          "St. Georges Society"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. George's Society"
+      },
+      {
+        "from": [
+          "San Remo Hotel",
+          "Hotel San Remo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "San Remo Hotel"
+      },
+      {
+        "from": [
+          "Shanley's",
+          "Shanleys"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shanley's"
+      },
+      {
+        "from": [
+          "Fraunces' Tavern",
+          "Fraunces Tavern"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fraunces' Tavern"
+      },
+      {
+        "from": [
+          "Hotel St. George",
+          "St. George Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel St. George"
+      },
+      {
+        "from": [
+          "Grand Hotel Royal",
+          "Royal Grand Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grand Hotel Royal"
+      },
+      {
+        "from": [
+          "Associated Pioneers Of The Territorial Days Of California",
+          "The Associated Pioneers Of The Territorial Days Of California"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Associated Pioneers Of The Territorial Days Of California"
+      },
+      {
+        "from": [
+          "Hotel Plaza",
+          "Plaza Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Plaza"
+      },
+      {
+        "from": [
+          "York Hotel",
+          "Hotel York"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "York Hotel"
+      },
+      {
+        "from": [
+          "Hotel Royal",
+          "Royal Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Royal"
+      },
+      {
+        "from": [
+          "Hotel Vendome",
+          "Vendome Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Vendome"
+      },
+      {
+        "from": [
+          "Cie Transatlantique",
+          "Cie Cie Transatlantique"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cie Transatlantique"
+      },
+      {
+        "from": [
+          "U.S. Army Subsistence Dept.",
+          "Us Army Subsistence Dept."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "U.S. Army Subsistence Dept."
+      },
+      {
+        "from": [
+          "Hotel Martinique",
+          "Martinique Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Martinique"
+      },
+      {
+        "from": [
+          "Hotel New Weston",
+          "New Weston Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel New Weston"
+      },
+      {
+        "from": [
+          "Copley-plaza Hotel",
+          "Hotel Copley-plaza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Copley-plaza Hotel"
+      },
+      {
+        "from": [
+          "Hotel Victoria",
+          "Victoria Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Victoria"
+      },
+      {
+        "from": [
+          "Hotel Ponce De Leon",
+          "Ponce De Leon Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Ponce De Leon"
+      },
+      {
+        "from": [
+          "Hotel Pontchartrain",
+          "Pontchartrain Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Pontchartrain"
+      },
+      {
+        "from": [
+          "Hotel Lexington",
+          "Lexington Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Lexington"
+      },
+      {
+        "from": [
+          "Revelstoke Hotel",
+          "Hotel Revelstoke"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Revelstoke Hotel"
+      },
+      {
+        "from": [
+          "Nippon Yusen Kaisha S.S. Kasuga",
+          "Nippon Yusen Kaisha Ss Kasuga"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nippon Yusen Kaisha S.S. Kasuga"
+      },
+      {
+        "from": [
+          "Pacific Mail S.S. Co.",
+          "Pacific Mail Ss Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pacific Mail S.S. Co."
+      },
+      {
+        "from": [
+          "Roanoke Hotel",
+          "Hotel Roanoke"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roanoke Hotel"
+      },
+      {
+        "from": [
+          "Des Indes Hotel",
+          "Hotel Des Indes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Des Indes Hotel"
+      },
+      {
+        "from": [
+          "Baltimore Hotel",
+          "Hotel Baltimore"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Baltimore Hotel"
+      },
+      {
+        "from": [
+          "Hotel Westminster",
+          "Westminster Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Westminster"
+      },
+      {
+        "from": [
+          "Hotel Statler",
+          "Statler Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Statler"
+      },
+      {
+        "from": [
+          "Hotel Vendome And Profile House",
+          "Profile House And Hotel Vendome"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel Vendome And Profile House"
+      },
+      {
+        "from": [
+          "U.S.S. New York",
+          "U.S.S. New York (?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "U.S.S. New York"
+      },
+      {
+        "from": [
+          "Gallatin Hotel",
+          "Hotel Gallatin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gallatin Hotel"
+      },
+      {
+        "from": [
+          "Hofbrau Haus",
+          "Hofbräu Haus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hofbrau Haus"
+      },
+      {
+        "from": [
+          "New England Shorthand Reporters' Association",
+          "New England Shorthand Reporter's Association"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New England Shorthand Reporters' Association"
+      }
+    ],
+    "description": "Mass edit cells in column location"
   }
 ]
